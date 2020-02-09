@@ -1,0 +1,55 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+
+    <style type="text/css">
+       .ghostButton {
+          display: inline-block;
+          padding: 8px;
+          color: #fff;
+          border: 5px solid #fff;
+          border-radius: 10px;
+          text-align: center;
+          outline: none;
+          text-decoration: none;
+          transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+      }
+      .ghostButton:hover,
+      .ghostButton:active {
+          background-color: #fff; /* fallback */
+          background-color: rgba(255, 255, 255, 0.4);
+          border-color: #fff; /* fallback */
+          border-color: rgba(255, 255, 255, 0.4);
+          transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+      }
+      .absolute {
+          position: absolute;
+          top: 450px;
+          right: 480px;
+          height: 100px;
+      }
+      body{
+          background-image: url("index.jpg");
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: center;
+          background-size: 100%;
+          font-size: 80px;
+          font-family: Georgia, serif;
+        }
+      a:visited, a:link, a:visited, a:active{
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ghostButton absolute"> <a href="login.php"> LOGIN </a></div>
+  </body>
+</html>

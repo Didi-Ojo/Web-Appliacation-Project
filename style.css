@@ -1,0 +1,189 @@
+
+body.withContent {
+    margin:0;
+    background-color: #f2f2f2;
+}
+
+body {
+    margin:0;
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li.nav{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+a.active {
+    background-color: #ff8533;
+}
+
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #e6e6e6;
+  text-align: right;
+
+}
+
+.heading {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #ff8533;
+}
+
+.content{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.galleryContent{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 10px;
+    background: #ffffff;
+}
+
+/* For slide show */
+*{box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+
+.rio{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #ff8533;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto; 
+  margin-top: 50px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1 of 5 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*Gallery*/
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+    padding: 0px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.GeneratedMarquee {
+font-family:Copperplate;
+font-size:1em;
+line-height:1.3em;
+color:#000000;
+padding:1.5em;
+}
+
+
+.ghost-button-rounded-corners {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+.ghost-button-rounded-corners:hover,
+.ghost-button-rounded-corners:active {
+  background-color: #fff;
+  color: #000;
+}
